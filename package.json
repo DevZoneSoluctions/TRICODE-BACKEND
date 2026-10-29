@@ -5,6 +5,7 @@
   "type": "module",
   "main": "api/contact.js",
   "scripts": {
+    "build": "echo Backend build ready",
     "test": "node -e \"import('./api/contact.js').then(() => console.log('API module OK'))\""
   },
   "dependencies": {
