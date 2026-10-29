@@ -1,0 +1,13 @@
+﻿{
+  "name": "tricode-clean-backend",
+  "version": "1.0.0",
+  "description": "TRICODE AI - Dedicated Vercel Serverless Contact API",
+  "type": "module",
+  "main": "api/contact.js",
+  "scripts": {
+    "test": "node -e \"import('./api/contact.js').then(() => console.log('API module OK'))\""
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
