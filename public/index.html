@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRICODE AI — Backend API</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #0B0F17;
+      color: #E2E8F0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: #151C28;
+      border: 1px solid #1E293B;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.12);
+      color: #10B981;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10B981;
+      box-shadow: 0 0 10px #10B981;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+    p {
+      color: #94A3B8;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+    .endpoint-box {
+      background: #0B0F17;
+      border: 1px solid #1E293B;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    .endpoint-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: #64748B;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+    .endpoint-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+    }
+    .method {
+      background: #2563EB;
+      color: #FFFFFF;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 11px;
+    }
+    .path {
+      color: #38BDF8;
+    }
+    .footer {
+      font-size: 12px;
+      color: #64748B;
+      border-top: 1px solid #1E293B;
+      padding-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">
+      <span class="dot"></span> System Operational
+    </div>
+    <h1>TRICODE AI Backend</h1>
+    <p>The Serverless API is live and accepting requests.</p>
+    
+    <div class="endpoint-box">
+      <div class="endpoint-title">Active Endpoint</div>
+      <div class="endpoint-item">
+        <span class="method">POST</span>
+        <span class="path">/api/contact</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      TRICODE AI Technologies &bull; Powered by Vercel Serverless
+    </div>
+  </div>
+</body>
+</html>
